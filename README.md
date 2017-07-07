@@ -1,6 +1,8 @@
 This is an simple exercise used to filter interview candidates by assessing your approach to development and use of
 infrastructure as code tooling. This has been tested using Terraform v0.9.11 we advise you use 
-this version as we will test your code with the same.
+this version as we will test your code with the same. If you're reading this you've probably been forwarded here by an
+agent to complete the exercise, if you do fork the repo please don't push your changes as they will be publicly visible
+to any other candidates, instead zip up your repo and forward to the agent.
 
 Here we have a Terraform script building a simple VPC network with public and private subnets, for now we have just  
 one instance in the public zone running the web server Nginx in it's default configuration, serving up the default 
